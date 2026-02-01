@@ -1,6 +1,7 @@
 @extends('frontend.layouts.master')
 @section('title')
-{{$settings->site_name}} || e-Commerce HTML Template
+
+ Tofu Corener
 @endsection
 
 @section('content')

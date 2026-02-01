@@ -301,7 +301,7 @@ p {
 ========================*/
 header {
   width: 100%;
-  background: #08C;
+  background: rgb(1, 14, 20);
   padding: 19px 0px;
   height: 90px;
   border-bottom: 1px solid #fff;
@@ -400,11 +400,13 @@ header {
 }
 
 .wsus__call_text p {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight: 500;
   font-size: 15px;
   color: #fff;
 }
+
+
 
 .wsus__call_text a {
   color: #0b2c3d;
@@ -2783,8 +2785,35 @@ footer {
 .wsus__footer_bottom {
   padding: 30px 0px;
   margin-top: 67px;
-  background: #08C;
+  background: rgb(2, 12, 17);
 }
+
+/* Text Logo */
+.footer_text_logo {
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+
+
+/* Footer Bottom Text */
+.wsus__footer_bottom p {
+    color: #fff;
+    margin: 0;
+}
+
+/* Optional: Footer links color */
+.wsus__footer_content a,
+.wsus__footer_content p,
+.wsus__footer_content h5,
+.wsus__footer_content h3 {
+    color: #ffffff;
+}
+
 
 .wsus__copyright {
   display: flex;
@@ -9706,6 +9735,13 @@ background: #fff;
       color: white;
     }
   }
+
+  header h3 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    color: #fff; 
+}
+
 
 
   .msg-notification {
